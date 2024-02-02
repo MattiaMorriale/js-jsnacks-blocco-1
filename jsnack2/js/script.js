@@ -1,8 +1,10 @@
 let somma = 0;
 
+let numbers;
+
 for (let i= 0; i < 10; i++ ) {
 
-    let numbers = Number(prompt("Inserisci un numero"));
+    numbers = Number(prompt("Inserisci un numero"));
     
     somma += numbers;
 
